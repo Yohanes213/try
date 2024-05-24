@@ -1,0 +1,120 @@
+2024-05-23 17:46:28,234 lyrics ERROR Error inserting song "በሩን ፡ ክፈቱ (Berun Kefetu)" by artist "ሀና ፡ ተክሌ (Hana Tekle)" with duration "4:46" into the database: relation "scrapelyrics" does not exist
+LINE 1: INSERT INTO scrapelyrics (artist, song_name, lyrics, duratio...
+                    ^
+
+2024-05-23 17:46:29,442 lyrics ERROR Error inserting song "ሁሉን ፡ በስርህ (Hulun Besereh)" by artist "ሀና ፡ ተክሌ (Hana Tekle)" with duration "6:10" into the database: relation "scrapelyrics" does not exist
+LINE 1: INSERT INTO scrapelyrics (artist, song_name, lyrics, duratio...
+                    ^
+
+2024-05-23 17:46:30,554 lyrics ERROR Error inserting song "ካህን (Kahen)" by artist "ሀና ፡ ተክሌ (Hana Tekle)" with duration "5:34" into the database: relation "scrapelyrics" does not exist
+LINE 1: INSERT INTO scrapelyrics (artist, song_name, lyrics, duratio...
+                    ^
+
+2024-05-23 17:46:31,757 lyrics ERROR Error inserting song "ሀብተ ፡ ሰማይ (Habte Semay)" by artist "ሀና ፡ ተክሌ (Hana Tekle)" with duration "6:01" into the database: relation "scrapelyrics" does not exist
+LINE 1: INSERT INTO scrapelyrics (artist, song_name, lyrics, duratio...
+                    ^
+
+2024-05-23 17:46:32,993 lyrics ERROR Error inserting song "ሩጫው (Ruchaw)" by artist "ሀና ፡ ተክሌ (Hana Tekle)" with duration "4:ፈለግ" into the database: relation "scrapelyrics" does not exist
+LINE 1: INSERT INTO scrapelyrics (artist, song_name, lyrics, duratio...
+                    ^
+
+2024-05-23 17:46:34,169 lyrics ERROR Error inserting song "እረኛ (Eregna)" by artist "ሀና ፡ ተክሌ (Hana Tekle)" with duration "4:52" into the database: relation "scrapelyrics" does not exist
+LINE 1: INSERT INTO scrapelyrics (artist, song_name, lyrics, duratio...
+                    ^
+
+2024-05-23 17:46:35,361 lyrics ERROR Error inserting song "ብቻ ፡ ልቤን (Becha Lebien)" by artist "ሀና ፡ ተክሌ (Hana Tekle)" with duration "4:56" into the database: relation "scrapelyrics" does not exist
+LINE 1: INSERT INTO scrapelyrics (artist, song_name, lyrics, duratio...
+                    ^
+
+2024-05-23 17:46:36,570 lyrics ERROR Error inserting song "እውነትና ፡ እውነት (Ewnetena Ewnet)" by artist "ሀና ፡ ተክሌ (Hana Tekle)" with duration "5:18" into the database: relation "scrapelyrics" does not exist
+LINE 1: INSERT INTO scrapelyrics (artist, song_name, lyrics, duratio...
+                    ^
+
+2024-05-23 17:46:37,796 lyrics ERROR Error inserting song "ግታው ፡ ሰበቤን (Getaw Sebebien)" by artist "ሀና ፡ ተክሌ (Hana Tekle)" with duration "4:48" into the database: relation "scrapelyrics" does not exist
+LINE 1: INSERT INTO scrapelyrics (artist, song_name, lyrics, duratio...
+                    ^
+
+2024-05-23 17:46:38,956 lyrics ERROR Error inserting song "እግዚአብሔር ፡ ይመስገን (Egziabhier Yemesgen)" by artist "ሀና ፡ ተክሌ (Hana Tekle)" with duration "5:04" into the database: relation "scrapelyrics" does not exist
+LINE 1: INSERT INTO scrapelyrics (artist, song_name, lyrics, duratio...
+                    ^
+
+2024-05-23 17:46:40,354 lyrics ERROR Error inserting song "ረግቻለው (Regechalew)" by artist "ሀና ፡ ተክሌ (Hana Tekle)" with duration "5:14" into the database: relation "scrapelyrics" does not exist
+LINE 1: INSERT INTO scrapelyrics (artist, song_name, lyrics, duratio...
+                    ^
+
+2024-05-23 17:46:41,549 lyrics ERROR Error inserting song "የታደልን (Yetadelen)" by artist "ሀና ፡ ተክሌ (Hana Tekle)" with duration "6:14" into the database: relation "scrapelyrics" does not exist
+LINE 1: INSERT INTO scrapelyrics (artist, song_name, lyrics, duratio...
+                    ^
+
+2024-05-23 17:46:42,639 lyrics ERROR Error inserting song "በታሪክህ (Betarikeh)" by artist "ሀና ፡ ተክሌ (Hana Tekle)" with duration "" into the database: relation "scrapelyrics" does not exist
+LINE 1: INSERT INTO scrapelyrics (artist, song_name, lyrics, duratio...
+                    ^
+
+2024-05-23 17:46:43,844 lyrics ERROR Error inserting song "{{{መዝሙር14}}} (Felega)" by artist "ሀና ፡ ተክሌ (Hana Tekle)" with duration "4:53" into the database: relation "scrapelyrics" does not exist
+LINE 1: INSERT INTO scrapelyrics (artist, song_name, lyrics, duratio...
+                    ^
+
+2024-05-23 17:46:45,006 lyrics ERROR Error inserting song "ተናገር (Tenager)" by artist "ሀና ፡ ተክሌ (Hana Tekle)" with duration "6:33" into the database: relation "scrapelyrics" does not exist
+LINE 1: INSERT INTO scrapelyrics (artist, song_name, lyrics, duratio...
+                    ^
+
+2024-05-23 17:46:46,244 lyrics ERROR Error inserting song "ሽኩር (Shekur)" by artist "ሀና ፡ ተክሌ (Hana Tekle)" with duration "4:24" into the database: relation "scrapelyrics" does not exist
+LINE 1: INSERT INTO scrapelyrics (artist, song_name, lyrics, duratio...
+                    ^
+
+2024-05-23 17:46:47,347 lyrics ERROR Error inserting song "ተመሥገን (Temesgen)" by artist "ሀና ፡ ተክሌ (Hana Tekle)" with duration "4:36" into the database: relation "scrapelyrics" does not exist
+LINE 1: INSERT INTO scrapelyrics (artist, song_name, lyrics, duratio...
+                    ^
+
+2024-05-23 17:46:48,475 lyrics ERROR Error inserting song "የዘለዓለም ፡ ፈጣሪ (Yezelalem Fetari)" by artist "ሀና ፡ ተክሌ (Hana Tekle)" with duration "6:34" into the database: relation "scrapelyrics" does not exist
+LINE 1: INSERT INTO scrapelyrics (artist, song_name, lyrics, duratio...
+                    ^
+
+2024-05-23 17:46:49,802 lyrics ERROR Error inserting song "የሮጡለትን ፡ ያዩታል (Yerotuleten Yayutal)" by artist "ሀና ፡ ተክሌ (Hana Tekle)" with duration "5:26" into the database: relation "scrapelyrics" does not exist
+LINE 1: INSERT INTO scrapelyrics (artist, song_name, lyrics, duratio...
+                    ^
+
+2024-05-23 17:46:50,957 lyrics ERROR Error inserting song "ሰላም ፡ ነው (Selam New)" by artist "ሀና ፡ ተክሌ (Hana Tekle)" with duration "6:12" into the database: relation "scrapelyrics" does not exist
+LINE 1: INSERT INTO scrapelyrics (artist, song_name, lyrics, duratio...
+                    ^
+
+2024-05-23 17:46:52,209 lyrics ERROR Error inserting song "በጉባኤው ፡ መሃል (Begubaiew Mehal)" by artist "ሀና ፡ ተክሌ (Hana Tekle)" with duration "4:37" into the database: relation "scrapelyrics" does not exist
+LINE 1: INSERT INTO scrapelyrics (artist, song_name, lyrics, duratio...
+                    ^
+
+2024-05-23 17:46:53,376 lyrics ERROR Error inserting song "ድሮዬን ፡ አልደግምም (Deroyien Aldegmem)" by artist "ሀና ፡ ተክሌ (Hana Tekle)" with duration "4:10" into the database: relation "scrapelyrics" does not exist
+LINE 1: INSERT INTO scrapelyrics (artist, song_name, lyrics, duratio...
+                    ^
+
+2024-05-23 17:46:54,778 lyrics ERROR Error inserting song "በፀሎት (Betselot)" by artist "ሀና ፡ ተክሌ (Hana Tekle)" with duration "4:58" into the database: relation "scrapelyrics" does not exist
+LINE 1: INSERT INTO scrapelyrics (artist, song_name, lyrics, duratio...
+                    ^
+
+2024-05-23 17:46:55,917 lyrics ERROR Error inserting song "ቤተ ፡ ሰሪ (Biete Seri)" by artist "ሀና ፡ ተክሌ (Hana Tekle)" with duration "4:31" into the database: relation "scrapelyrics" does not exist
+LINE 1: INSERT INTO scrapelyrics (artist, song_name, lyrics, duratio...
+                    ^
+
+2024-05-23 17:46:57,319 lyrics ERROR Error inserting song "ፍሰሃዬ (Fesehayie)" by artist "ሀና ፡ ተክሌ (Hana Tekle)" with duration "4:10" into the database: relation "scrapelyrics" does not exist
+LINE 1: INSERT INTO scrapelyrics (artist, song_name, lyrics, duratio...
+                    ^
+
+2024-05-23 17:46:58,480 lyrics ERROR Error inserting song "ያለ ፡ ምክንያት (Yale Mekniyat)" by artist "ሀና ፡ ተክሌ (Hana Tekle)" with duration "5:17" into the database: relation "scrapelyrics" does not exist
+LINE 1: INSERT INTO scrapelyrics (artist, song_name, lyrics, duratio...
+                    ^
+
+2024-05-23 17:48:05,344 lyrics ERROR Error scraping data from https://wikimezmur.org/am/Gospel_Singers: relation "scrape.lyrics" does not exist
+LINE 1: INSERT INTO scrape.lyrics (artist, song_name, lyrics, durati...
+                    ^
+
+2024-05-23 17:49:21,390 lyrics ERROR Error scraping data from https://wikimezmur.org/am/Gospel_Singers: relation "scrape.lyrics" does not exist
+LINE 1: INSERT INTO scrape.Lyrics (artist, song_name, lyrics, durati...
+                    ^
+
+2024-05-23 17:53:45,569 lyrics ERROR Error scraping data from https://wikimezmur.org/am/Gospel_Singers: relation "scrape.lyrics" does not exist
+LINE 1: INSERT INTO scrape.Lyrics (artist, song_name, lyrics, durati...
+                    ^
+
+2024-05-23 17:54:56,622 lyrics ERROR Error scraping data from https://wikimezmur.org/am/Gospel_Singers: relation "scrape.lyrics" does not exist
+LINE 1: INSERT INTO scrape.Lyrics (artist, song_name, lyrics, durati...
+                    ^
+

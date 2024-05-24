@@ -1,0 +1,59 @@
+2024-05-23 10:56:00,564 database_operations INFO Database connection established {db_name} successfully
+2024-05-23 10:56:00,608 database_operations INFO Database connection established {db_name} successfully
+2024-05-23 10:56:03,727 database_operations INFO Fetched 68952 rows from table news
+2024-05-23 10:57:08,341 database_operations INFO Stored 68952 cleaned documents into the table news.
+2024-05-23 11:01:44,409 database_operations INFO Database connection established {db_name} successfully
+2024-05-23 11:01:44,459 database_operations INFO Database connection established {db_name} successfully
+2024-05-23 11:01:50,072 database_operations INFO Fetched 68952 rows from table news
+2024-05-23 11:03:27,043 database_operations INFO Database connection established {db_name} successfully
+2024-05-23 11:03:27,080 database_operations INFO Database connection established {db_name} successfully
+2024-05-23 11:03:30,504 database_operations INFO Fetched 68952 rows from table news
+2024-05-23 11:03:37,074 database_operations INFO Error storing cleaned data into table news: INSERT has more expressions than target columns
+LINE 1: INSERT INTO scrape."news" VALUES ('ኢትዮጵያ፡ ልቡ በቀኙ በኩል ለሚገኘው ታ...
+                                          ^
+
+2024-05-23 11:07:05,218 database_operations INFO Database connection established {db_name} successfully
+2024-05-23 11:07:05,260 database_operations INFO Database connection established {db_name} successfully
+2024-05-23 11:07:08,478 database_operations INFO Fetched 68952 rows from table news
+2024-05-23 11:07:15,355 database_operations ERROR Error storing cleaned data into table news: column "column1" of relation "news" does not exist
+LINE 1: INSERT INTO scrape."news" (column1, column2, column3, column...
+                                   ^
+
+2024-05-23 11:08:11,388 database_operations INFO Database connection established {db_name} successfully
+2024-05-23 11:08:11,436 database_operations INFO Database connection established {db_name} successfully
+2024-05-23 11:08:43,159 database_operations INFO Database connection established {db_name} successfully
+2024-05-23 11:08:43,196 database_operations INFO Database connection established {db_name} successfully
+2024-05-23 11:08:46,420 database_operations INFO Fetched 68952 rows from table news
+2024-05-23 11:08:53,113 database_operations ERROR Error storing cleaned data into table news: column "column1" of relation "news" does not exist
+LINE 1: INSERT INTO scrape."news" (column1, column2, column3, column...
+                                   ^
+
+2024-05-23 11:09:38,922 database_operations INFO Database connection established {db_name} successfully
+2024-05-23 11:09:38,971 database_operations INFO Database connection established {db_name} successfully
+2024-05-23 11:09:43,465 database_operations INFO Fetched 68952 rows from table news
+2024-05-23 11:09:49,894 database_operations ERROR Error storing cleaned data into table news: column "headline" of relation "news" does not exist
+LINE 1: INSERT INTO scrape."news" (Headline, Content, Source, date) ...
+                                   ^
+
+2024-05-23 11:11:03,617 database_operations INFO Database connection established {db_name} successfully
+2024-05-23 11:11:03,665 database_operations INFO Database connection established {db_name} successfully
+2024-05-23 11:11:06,889 database_operations INFO Fetched 68952 rows from table news
+2024-05-23 11:11:13,576 database_operations ERROR Error storing cleaned data into table news: list index out of range
+2024-05-23 11:11:29,435 database_operations INFO Database connection established {db_name} successfully
+2024-05-23 11:11:29,477 database_operations INFO Database connection established {db_name} successfully
+2024-05-23 11:11:32,659 database_operations INFO Fetched 68952 rows from table news
+2024-05-23 11:11:39,202 database_operations ERROR Error storing cleaned data into table news: column "headline" of relation "news" does not exist
+LINE 1: INSERT INTO scrape."news" (Headline, Content, Source, date) ...
+                                   ^
+
+2024-05-23 11:13:03,544 database_operations INFO Database connection established {db_name} successfully
+2024-05-23 11:13:03,584 database_operations INFO Database connection established {db_name} successfully
+2024-05-23 11:13:06,517 database_operations INFO Fetched 68952 rows from table news
+2024-05-23 11:13:12,991 database_operations ERROR Error storing cleaned data into table news: syntax error at or near "'Headline'"
+LINE 1: INSERT INTO scrape."news" ('Headline', 'Content', 'Source', ...
+                                   ^
+
+2024-05-23 11:13:57,624 database_operations INFO Database connection established {db_name} successfully
+2024-05-23 11:13:57,667 database_operations INFO Database connection established {db_name} successfully
+2024-05-23 11:14:00,648 database_operations INFO Fetched 68952 rows from table news
+2024-05-23 11:14:59,012 database_operations INFO Stored 68952 cleaned documents into the table news.

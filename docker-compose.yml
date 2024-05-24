@@ -1,0 +1,37 @@
+services:
+  postgres:
+    image: postgres:latest
+    container_name: postgres
+    restart: always
+    enivornment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD:=1234567
+      - POSTGRES_DB=airflow_metadata_db
+
+    ports:
+      - "5432:5432"
+
+    volumes:
+      - postgres_data:/var/bib/postgres/data
+
+  airflow:
+    build:
+      context: .
+    image: airflow-with-custom-scripts:latest
+    container_name: airflow
+    restart: always
+    enivornemt:
+      - AIRFLOW__CORE__SQL_ALCHEMY_CONN = postgresql+psycopg2://postgres:1234567@postgres/airflow_metadata_db
+      - AIRFLOW__CORE__EXECUTOR = LocalExecutor
+      - AIRFLOW__WEBSERVER__SECRET_KEY=63LLYW8esIxcaOVt6VMf1A==
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./data_collection:/opt/airflow/data_collection
+      - ./data_preprocessing:/opt/airflow/data_preprocessing
+      - .sources.json:/opt/airflow/sources.json
+
+volumes:
+  postgres_data
+
