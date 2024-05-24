@@ -1,18 +1,4 @@
 services:
-  postgres:
-    image: postgres:latest
-    container_name: postgres
-    restart: always
-    enivornment:
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD:=1234567
-      - POSTGRES_DB=airflow_metadata_db
-
-    ports:
-      - "5432:5432"
-
-    volumes:
-      - postgres_data:/var/bib/postgres/data
 
   airflow:
     build:
@@ -26,12 +12,28 @@ services:
       - AIRFLOW__WEBSERVER__SECRET_KEY=63LLYW8esIxcaOVt6VMf1A==
     ports:
       - "8080:8080"
-    volumes:
-      - ./airflow/dags:/opt/airflow/dags
-      - ./data_collection:/opt/airflow/data_collection
-      - ./data_preprocessing:/opt/airflow/data_preprocessing
-      - .sources.json:/opt/airflow/sources.json
+    #volumes:
+     # - ./airflow/dags:/opt/airflow/dags
+     # - ./data_collection:/opt/airflow/data_collection
+     # - ./data_preprocessing:/opt/airflow/data_preprocessing
+     # - .sources.json:/opt/airflow/sources.json
 
+  postgres:
+    image: postgres:latest
+    container_name: postgres
+    restart: always
+    enivornment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=1234567
+      - POSTGRES_DB=airflow_metadata_db
+
+    ports:
+      - "5432:5432"
+
+    volumes:
+      - postgres_data:/var/bib/postgres/data
+
+  
 volumes:
   postgres_data
 
